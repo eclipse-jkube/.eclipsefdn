@@ -22,8 +22,6 @@ orgs.newOrg('eclipse-jkube') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       dependabot_security_updates_enabled: true,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -35,8 +33,6 @@ orgs.newOrg('eclipse-jkube') {
       delete_branch_on_merge: false,
       dependabot_security_updates_enabled: true,
       description: "Reporitory to host and automate CI pipelines",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -116,8 +112,6 @@ orgs.newOrg('eclipse-jkube') {
       dependabot_security_updates_enabled: true,
       description: "Container images for Eclipse JKube",
       homepage: "https://quay.io/organization/jkube",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "eclipse-jkube",
         "jkube"
@@ -142,8 +136,6 @@ orgs.newOrg('eclipse-jkube') {
       dependabot_security_updates_enabled: true,
       description: "E2E/integration/regression tests for Eclipse JKube project",
       homepage: "https://eclipse.dev/jkube",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "eclipse-jkube",
         "jkube"
@@ -174,8 +166,6 @@ orgs.newOrg('eclipse-jkube') {
       dependabot_security_updates_enabled: true,
       description: "Website for Eclipse JKube",
       homepage: "https://www.eclipse.dev/jkube",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "eclipse-jkube",
         "jkube"
@@ -217,8 +207,6 @@ orgs.newOrg('eclipse-jkube') {
       delete_branch_on_merge: false,
       dependabot_security_updates_enabled: true,
       description: "jkube published website",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -229,8 +217,6 @@ orgs.newOrg('eclipse-jkube') {
       dependabot_security_updates_enabled: true,
       description: "Katacoda Scenarios for Eclipse JKube",
       homepage: "https://katacoda.com/jkubeio/",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -253,8 +239,6 @@ orgs.newOrg('eclipse-jkube') {
       description: "Thanks to the seamless integration of port-forwarding and a proxy, developers can experience the sensation of effortlessly teleporting their applications into a development mode within a remote Kubernetes cluster, seamlessly replacing the existing remote app.",
       has_discussions: true,
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         actions_can_approve_pull_request_reviews: false,
@@ -284,8 +268,6 @@ orgs.newOrg('eclipse-jkube') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       dependabot_alerts_enabled: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         actions_can_approve_pull_request_reviews: false,

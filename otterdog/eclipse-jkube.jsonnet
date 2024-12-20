@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-jkube') {
+orgs.newOrg('ecd.jkube', 'eclipse-jkube') {
   settings+: {
     blog: "https://www.eclipse.dev/jkube/",
     description: "Successor of the deprecated Fabric8 Maven Plugin",
